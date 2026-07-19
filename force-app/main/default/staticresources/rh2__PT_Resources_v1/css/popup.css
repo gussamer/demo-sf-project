@@ -1,0 +1,80 @@
+@charset "utf-8";
+/*
+	Styling for pop-ups intended to match
+	the default Salesforce tutorial popups
+*/
+
+.popupBackground {
+	position: absolute;
+	width: 100%;
+	height: 200%;
+	z-index: 9000;
+	opacity: 0.40;
+	background-color: black;
+	filter: alpha(opacity=40);
+	top: -116px;
+	left: 0px;
+}
+
+.popupMessage {
+	background-color: #ffe853;
+	background-image: url( {! URLFOR($Resource.PT_Resources_v1, 'images/popupBG.png') } );
+	background-repeat: repeat-x;
+	background-size: initial 100%;
+	left: 50%;
+	z-index: 9003;
+	padding:0px;
+	position: absolute;
+	margin-left: -197px;
+	top: 30px;
+	width: 394px;
+	border: 3px solid white;
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px 7px #666;
+}
+
+.popupHeaderText {
+	line-height: 1.3em;
+	display: block;
+	padding: 10px 10px 10px 10px;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #000;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border: solid #f8df5d;
+	border-width: 2px 2px 0 2px;
+}
+
+.popupHeaderTitle {
+	color: #008040;
+	display: inline;
+}
+
+.popupBody {
+	padding: 10px 10px 10px 10px;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #222;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border: solid #f8df5d;
+	border-width: 0 2px 2px 2px;
+}
+
+.popupBody a {
+	text-decoration: none;
+	color: #0f519f;
+	font-size: 1.1em;
+}
+
+.popupBody a:visited {
+	text-decoration: none;
+	color: #a200b2;
+	font-size: 1.1em;
+}
+
+.popupBody a:hover {
+	color: #fb0606;
+	font-size: 1.1em;
+	text-decoration: none;
+}

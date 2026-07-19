@@ -1,0 +1,13 @@
+.customMessage * {
+  color: #fff!important
+}
+.customMessage {
+  border: 0px;
+  margin-left:auto;
+  margin-right:auto;        
+  opacity: 1!important;
+  width:98%;
+}
+.message {
+  opacity: .1
+}

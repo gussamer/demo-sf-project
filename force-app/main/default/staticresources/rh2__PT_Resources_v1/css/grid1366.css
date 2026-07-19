@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* Passage Technology 1260px grid
+
+14 cols by 80px, with a 10px gutter
+inspired by http://www.1kbgrid.com/
+
+*/
+
+.col {
+	margin-left:5px; margin-right:5px;
+	display: inline;
+	overflow: hidden;
+	float: left;
+	position: relative;
+}
+
+.row{
+	width: 1260px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.row .row {
+	margin: 0 -5px;
+	width: auto;
+	display: inline-block;
+}
+
+/* Column widths, and element width based on grid */
+
+.col_1, .width_1	 {	width:80px; }
+.col_2, .width_2 	 {	width:170px; }
+.col_3, .width_3 	 {	width:260px; }
+.col_4, .width_4 	 {	width:350px; }
+.col_5, .width_5	 {	width:440px; }
+.col_6, .width_6	 {	width:530px; }
+.col_7, .width_7	 {	width:620px; }
+.col_8, .width_8	 {	width:710px; }
+.col_9, .width_9 	 {	width:800px; }
+.col_10, .width_10	 {	width:890px; }
+.col_11, .width_11	 {	width:980px; }
+.col_12, .width_12	 {	width:1070px; }
+.col_13, .width_13	 {	width:1160px; }
+.col_14, .width_14	 {	width:1250px; }
